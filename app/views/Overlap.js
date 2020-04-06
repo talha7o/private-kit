@@ -45,8 +45,8 @@ const no_overlap_button_text = languages.t(
   'label.overlap_no_results_button_label',
 );
 const INITIAL_REGION = {
-  latitude: 36.56,
-  longitude: 20.39,
+  latitude: 30.37,
+  longitude: 69.34,
   latitudeDelta: 50,
   longitudeDelta: 50,
 };

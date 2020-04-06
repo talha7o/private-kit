@@ -2,6 +2,7 @@ import React from 'react';
 import { View } from 'react-native';
 import { StyleSheet } from 'react-native';
 import Swiper from './ReactNativeSwiper';
+import SelectLanguage from './SelectLanguage';
 import Intro1 from './Intro1';
 import Intro2 from './Intro2';
 import Intro3 from './Intro3';
@@ -16,10 +17,13 @@ const WelcomSlider = props => {
     <View style={{ flex: 1 }}>
       <Swiper
         showsButtons={false}
-        activeDotColor={'#665EFF'}
+        activeDotColor={'#AC3B61'}
         showsPagination={false}
         ref={swiperRef}
         loop={false}>
+        <View style={styles.container}>
+          <SelectLanguage navigation={props.navigation} swipe={i => swipe(i)} />
+        </View>
         <View style={styles.container}>
           <Intro1 navigation={props.navigation} swipe={i => swipe(i)} />
         </View>

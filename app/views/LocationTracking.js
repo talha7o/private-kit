@@ -126,7 +126,7 @@ class LocationTracking extends Component {
       <SafeAreaView style={styles.container}>
         <ScrollView contentContainerStyle={styles.main}>
           {/* A modal menu. Currently only used for license info */}
-          <Menu
+          {/* <Menu
             style={{
               position: 'absolute',
               alignSelf: 'flex-end',
@@ -157,6 +157,7 @@ class LocationTracking extends Component {
               </MenuOption>
             </MenuOptions>
           </Menu>
+        */}
           <Text style={styles.headerTitle}>
             {languages.t('label.private_kit')}
           </Text>

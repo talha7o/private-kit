@@ -128,7 +128,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "edu.mit.privatekit"
+        applicationId "com.safepaths"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         multiDexEnabled true
